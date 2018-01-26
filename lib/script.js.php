@@ -41,6 +41,7 @@
 	include_once "../lib/func.inc.php";
 	include_once "../lib/classes.inc.php";
 	require_once '../lang/'.$idioma.'.php';
+	header('Content-Type: application/javascript');
 ?>
 var req;
 var elem = '';
